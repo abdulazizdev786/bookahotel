@@ -22,13 +22,13 @@
                     <tr>
                         <td>First Name</td>
                         <td>
-                            <input id="tctFname" type="text" />
+                            <input id="txtFname" type="text" />
                         </td>
                     </tr>
                     <tr>
                         <td>Last Name</td>
                         <td>
-                            <input id="tctLname" type="text" />
+                            <input id="txtLname" type="text" />
                         </td>
                     </tr>
                     <tr>
