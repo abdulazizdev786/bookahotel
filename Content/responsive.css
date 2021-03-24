@@ -1,0 +1,72 @@
+﻿
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 3.3vw;
+        margin-left: 3vw;
+    }
+    .navbar-toggler-icon {
+        background-image: url("../Images/togger-icon.png") !important;
+    }
+    .navbar-nav {
+        background: rgba(0,0,0,0.5);
+    }
+        .navbar-nav .nav-item a {
+            font-size: 3vw;
+        }
+
+    .navbar-nav .nav-item {
+        margin: 2vw;
+
+    }
+}
+
+/* 
+============================================
+-----------------Home Styles----------------
+============================================
+*/
+
+@media (max-width:760px){
+.intro-header {
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../Images/main-img-bg.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.intro-header .intro-message {
+    margin-top: 40%;
+}
+
+.intro-header .intro-message h1 {
+    font-size: 8vw
+}
+
+.intro-header .intro-message h3 {
+    font-size: 3vw;
+}
+
+.intro-header .homeFromPanel {
+    width: 100%;
+    padding:2%;
+    border-radius:10px;
+}
+.intro-header .homeFromPanel .table.home-table tr td input {
+    height: 30px;
+    border-radius: 6px;
+    padding: 0 6px;
+    font-size:2.5vw;
+}
+
+.intro-header .homeFromPanel .table.home-table tr td input.btnSearch-main {
+    padding: 0px 20px;
+    font-size: 2.5vw;
+}
+}

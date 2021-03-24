@@ -67,45 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdminLogin\2AdminHome.png" />
-    <Content Include="AdminLogin\3ManagerManagement.png" />
+    <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\landing-page.css" />
+    <Content Include="Content\responsive.css" />
     <Content Include="Content\signin.css" />
-    <Content Include="Content\Site.css" />
     <Content Include="images\profile.png" />
-    <Content Include="ManagerLogin\4ManagerHome.png" />
-    <Content Include="ManagerLogin\5SalesManagement.png" />
-    <Content Include="ManagerLogin\6SalesAnnouncement.png" />
-    <Content Include="SalesLogin\10ProposalsManagement.png" />
-    <Content Include="SalesLogin\7SalesHome.png" />
-    <Content Include="SalesLogin\8OpportunityType.png" />
-    <Content Include="SalesLogin\9OpportunityManagement.png" />
-    <Content Include="SalesLogin\Announcement.png" />
-    <Content Include="SalesLogin\Project.png" />
-    <Content Include="Scripts\ai.0.15.0-build58334.js" />
-    <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Scripts\bookvalidation.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\dashboard-validation.js" />
+    <Content Include="images\togger-icon.png" />
     <Content Include="mainMaster.master" />
     <Content Include="home.aspx" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\jquery-1.11.2.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Content\bootstrap.css.map" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <None Include="Scripts\_references.js" />
-    <Content Include="Content\styles.css" />
+    <Content Include="Content\landing.css" />
     <Content Include="Web.config" />
     <Content Include="login.aspx" />
   </ItemGroup>
@@ -127,11 +101,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdminLogin\Thumbs.db" />
-    <Content Include="ManagerLogin\Thumbs.db" />
     <None Include="packages.config" />
-    <Content Include="SalesLogin\Thumbs.db" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
