@@ -3,6 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/master.css" rel="stylesheet" />
      <link href="Content/landing.css" rel="stylesheet" />
      <link href="Content/responsive.css" rel="stylesheet" />
 
@@ -16,7 +17,7 @@
                 </div>
                 <div class="main-form col-sm-12">
 
-                    <asp:Panel ID="Panel1" runat="server" CssClass="homeFromPanel">
+                    <asp:Panel ID="homePanel" runat="server" CssClass="homeFromPanel">
                         <table class="table home-table ">
                             <tr class="row m-0">
                                 <td class="col-12 col-sm-3">

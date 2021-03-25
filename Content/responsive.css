@@ -28,7 +28,7 @@
 ============================================
 */
 
-@media (max-width:760px){
+@media (max-width:768px){
 .intro-header {
     width: 100%;
     height: 100vh;
@@ -69,4 +69,35 @@
     padding: 0px 20px;
     font-size: 2.5vw;
 }
+}
+
+/* 
+===========================================
+---------------login Styles----------------
+===========================================
+*/
+
+@media  (max-width: 1020px){
+    .loginPanel {
+        width: 80%;
+        padding: 3%;
+        padding-bottom: 1%;
+    }
+    .login-form .row td input.btn {
+        margin: 2% 0;
+        font-weight: 600;
+        font-size: 1.3vw;
+    }
+}
+@media (max-width: 768px) {
+    .login-form .row td input.btn {
+        margin: 2% 0;
+        font-size: 2.6vw;
+    }
+    .login-form .row td .login-label {
+        font-size: 2vw;
+    }
+    .login-form .row td input#btnRegister {
+        font-size: 2vw;
+    }
 }
