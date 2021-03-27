@@ -58,14 +58,14 @@
     padding:2%;
     border-radius:10px;
 }
-.intro-header .homeFromPanel .table.home-table tr td input {
+.intro-header .homeFromPanel .table.home-table tr td .txt-input {
     height: 30px;
     border-radius: 6px;
     padding: 0 6px;
-    font-size:2.5vw;
+    font-size: 2.5vw;
 }
 
-.intro-header .homeFromPanel .table.home-table tr td input.btnSearch-main {
+.intro-header .homeFromPanel .table.home-table tr td .txt-input.btnSearch-main {
     padding: 0px 20px;
     font-size: 2.5vw;
 }
@@ -83,21 +83,21 @@
         padding: 3%;
         padding-bottom: 1%;
     }
-    .login-form .row td input.btn {
+    .login-form .row td .btn {
         margin: 2% 0;
         font-weight: 600;
         font-size: 1.3vw;
     }
 }
 @media (max-width: 768px) {
-    .login-form .row td input.btn {
+    .login-form .row td .btn {
         margin: 2% 0;
         font-size: 2.6vw;
     }
     .login-form .row td .login-label {
         font-size: 2vw;
     }
-    .login-form .row td input#btnRegister {
+    .login-form .row td .btn.btnRegister {
         font-size: 2vw;
     }
 }

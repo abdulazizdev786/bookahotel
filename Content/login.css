@@ -37,30 +37,38 @@
 .login-form .row td {
     width: 100%;
 }
-.login-form .row td input{
+
+.login-form .row td .text-input{
     width: 100%;
     background:transparent;
     outline:none;
     border:none;
     color:#cfcfcf
 }
+    .login-form .row td .btn{
+        width: 100%;
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #cfcfcf
+    }
 
-.login-form .row td input::placeholder{ 
+.login-form .row td .text-input::placeholder {
     color: #cacaca;
     opacity: 0.6;
 }
-.login-form .row td input.btn {
+.login-form .row td .btn {
     margin: 2% 0;
-    font-weight:600;
-    font-size:1.3vw;
-    color:#ffffff;
-    outline:none;
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: #ffffff;
+    outline: none;
 }
 .login-form .row td .login-label {
     color: #cacaca;
     font-size: 1vw;
 }
-.login-form .row td input#btnRegister {
+.login-form .row td .btn.btnRegister {
     color: #FF6262;
     font-size: 1vw;
 }

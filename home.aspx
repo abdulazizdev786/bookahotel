@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainMaster.master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="BookAHotel.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainMaster.Master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="BookAHotel.home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -12,7 +12,7 @@
                 <div class="col-sm-12">      
                     <div class=" intro-message">
                         <h1>Hotel Booking</h1>
-                        <h3>Welcome to Book A Hotel</h3>
+                        <h3>Welcome <%=Session["userName"].ToString() %> </h3>
                     </div>
                 </div>
                 <div class="main-form col-sm-12">
@@ -41,4 +41,5 @@
 
         </div>
     </div>
+
 </asp:Content>

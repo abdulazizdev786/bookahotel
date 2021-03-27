@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainMaster.master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="BookAHotel.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainMaster.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="BookAHotel.login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <link href="Content/bootstrap.css" rel="stylesheet" />
+     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/master.css" rel="stylesheet" />
      <link href="Content/login.css" rel="stylesheet" />
      <link href="Content/responsive.css" rel="stylesheet" />
@@ -17,22 +17,23 @@
                 </tr>
                 <tr class="row m-0">
                     <td>
-                        <input id="txtEmail" type="text" placeholder="Email" required="required" />
+                        <asp:TextBox ID="txtEmail" CssClass="text-input" runat="server" required="required" placeholder="Email" TextMode="Email"></asp:TextBox>
                     </td>
                 </tr>
                 <tr class="row m-0">
                     <td>
-                        <input id="txtPassword" type="text" placeholder="Password" required="required" />
+                        <asp:TextBox ID="txtPassword" CssClass="text-input" runat="server" required="required" placeholder="Password" TextMode="Password"></asp:TextBox>
                     </td>
                 </tr>
                 <tr class="row m-0">
                     <td>
-                        <input id="btnLogin" class="btn" type="button" value="Login" />
+                        <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="btn" OnClick="btnLogin_Click" />
                         <asp:Label runat="server" CssClass="login-label">Don't Have An Account?</asp:Label>
-                        <input id="btnRegister" class="btn" type="button" value="Register" />
+                        <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="btn btnRegister" />
                     </td>
                 </tr>
             </table>
         </div>
     </div>
+
 </asp:Content>
