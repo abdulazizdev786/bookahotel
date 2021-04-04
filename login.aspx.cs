@@ -99,5 +99,7 @@ namespace BookAHotel
             public string role { get; set; }
             public bool isAuthUser { get; set; }
         }
+
+       
     }
 }

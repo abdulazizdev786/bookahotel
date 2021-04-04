@@ -29,7 +29,7 @@
                     <td>
                         <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="btn" OnClick="btnLogin_Click" />
                         <asp:Label runat="server" CssClass="login-label">Don't Have An Account?</asp:Label>
-                        <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="btn btnRegister" />
+                        <a href="registeruser.aspx" ID="btnRegister" class="btn btnRegister">Register</a>
                     </td>
                 </tr>
             </table>

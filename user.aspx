@@ -6,7 +6,6 @@
     <link href="Content/master.css" rel="stylesheet" />
      <link href="Content/user.css" rel="stylesheet" />
      <link href="Content/responsive.css" rel="stylesheet" />
-
     <div class="main-wrapper">
 
     </div>

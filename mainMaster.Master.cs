@@ -32,11 +32,11 @@ namespace BookAHotel
                         case "admin":
                             myrole = "<ul class='navbar-nav'><li class='nav-item'><a class='nav-link active' href='home.aspx'>Home</a></li> <li class='nav-item'><a class='nav-link signin' href='login.aspx'>Logout</a></li></ul>";
                             break;
-                        case "user":
-                            myrole = "<ul class='navbar-nav'><li class='nav-item'><a class='nav-link active' href='home.aspx'>Home</a></li> <li class='nav-item'><a class='nav-link' href='#'>View All Hotels</a></li><li class='nav-item'><a class='nav-link signin' href='login.aspx'>Login or Register</a></li></ul>";
+                        case "User":
+                            myrole = "<ul class='navbar-nav'><li class='nav-item'><a class='nav-link active' href='home.aspx'>Home</a></li> <li class='nav-item'><a class='nav-link' href='#'>View All Hotels</a></li><li class='nav-item'><a class='nav-link signin' href='login.aspx'>Logout</a></li></ul>";
                             break;
                         case "hotel":
-                            myrole = "<ul class='navbar-nav'><li class='nav-item'><a class='nav-link active' href='home.aspx'>Home</a></li><li class='nav-item'><a class='nav-link signin' href='login.aspx'>Login or Register</a></li></ul>";
+                            myrole = "<ul class='navbar-nav'><li class='nav-item'><a class='nav-link active' href='home.aspx'>Home</a></li><li class='nav-item'><a class='nav-link signin' href='login.aspx'>Logout</a></li></ul>";
                             break;
                         default:
                             break;

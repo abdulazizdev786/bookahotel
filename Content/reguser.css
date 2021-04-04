@@ -1,0 +1,59 @@
+﻿body {
+    padding:0;
+    margin:0;
+}
+.navbar {
+    width: 100%;
+background:blue;
+}
+.main-wrapper{
+    width:100%;
+    height:90vh;
+    padding:5%;
+    padding-top:10vh;
+}
+.main-wrapper h1{
+    font-size:3vw;
+    margin:3% 0;
+}
+    .main-wrapper .reg-table-container {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+.reg-table-container .table td{
+       margin:1% 0;
+       border:none;
+
+    }
+.reg-table-container .table td .input{
+    height: 40px;
+    margin:0;
+    outline:none;
+}
+    .reg-table-container .table .col {
+        margin-right:1.5% !important;
+    }
+.reg-table-container .table .dropdown {
+    margin-right: 0;
+}
+.reg-table-container .table .btn {
+    padding-left: 4%;
+    padding-right: 4%;
+    border:none;
+    background:blue;
+    color:#ffffff;
+}
+.reg-table-container .table .btnCancel {
+    background: #808080;
+
+}
+.main-wrapper .reg-form-img {
+    display:flex;
+    justify-content:center
+}
+.reg-form-img img{
+    width:80%;
+    margin:auto;
+}
