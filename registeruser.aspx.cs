@@ -39,5 +39,10 @@ namespace BookAHotel
             con.Close();
             Response.Redirect("home.aspx");
         }
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("home.aspx");
+        }
     }
 }

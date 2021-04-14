@@ -70,7 +70,6 @@
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\hotel.css" />
     <Content Include="Content\landing-page.css" />
     <Content Include="Content\login.css" />
     <Content Include="Content\master.css" />
@@ -78,7 +77,6 @@
     <Content Include="Content\responsive.css" />
     <Content Include="Content\signin.css" />
     <Content Include="home.aspx" />
-    <Content Include="hotel.aspx" />
     <Content Include="images\login-bg.png" />
     <Content Include="images\profile.png" />
     <Content Include="images\reception.jpg" />
@@ -99,13 +97,6 @@
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="hotel.aspx.cs">
-      <DependentUpon>hotel.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="hotel.aspx.designer.cs">
-      <DependentUpon>hotel.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>

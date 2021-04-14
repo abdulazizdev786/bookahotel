@@ -37,6 +37,7 @@ background:blue;
     }
 .reg-table-container .table .dropdown {
     margin-right: 0;
+    cursor:pointer;
 }
 .reg-table-container .table .btn {
     padding-left: 4%;
@@ -47,7 +48,7 @@ background:blue;
 }
 .reg-table-container .table .btnCancel {
     background: #808080;
-
+    outline:none;
 }
 .main-wrapper .reg-form-img {
     display:flex;

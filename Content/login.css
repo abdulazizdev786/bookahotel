@@ -68,7 +68,19 @@
     color: #cacaca;
     font-size: 1vw;
 }
+.modal-dialog .modal-content {
+    
+}
+.modal-body .btn.btnRegister {
+    color: #FF6262;
+    font-size: 1.3vw;
+    width:100%;
+    margin:10px auto;
+    background:rgba(0,0,0,0.1);
+}
 .login-form .row td .btn.btnRegister {
     color: #FF6262;
     font-size: 1vw;
+    outline:none;
+    border:none;    
 }

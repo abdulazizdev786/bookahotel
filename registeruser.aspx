@@ -43,7 +43,7 @@
             <tr class="row m-0" >
                 <td colspan="2" class="col-12">
                     <asp:Button CssClass="btn" ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" />
-                    <asp:Button CssClass="btn btnCancel" ID="btnCancel" runat="server" Text="Cancel" />
+                    <a href="home.aspx" class="btn btnCancel" ID="btnCancel">Cancel</a>
                 </td>
             </tr>
         </table>
